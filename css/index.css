@@ -1,0 +1,270 @@
+#banner{
+	margin: 0 auto;
+	width: 1220px;
+	overflow: hidden;
+	clear: both;
+	border: 1px solid #0000FF;
+}
+#b-l{
+	
+	width: 220px;
+	float: left;
+}
+#b-l .la-g{
+	border: 1px solid #CCCCCC;
+	height: 78px;
+	width: 218px;
+}
+#b-l .la-g dl{
+	width: 180px;
+	height: 60px;
+	margin: 10px 0 0 18px;
+}
+#b-l .la-g dl a{
+	color: #000000;
+	margin-right: 2px;
+	line-height: 20px;
+}
+#b-l .la-g dl a:hover{
+	color: red;
+}
+#b-l .la-g dl dt p{
+	float: left;
+}
+#b-l .la-g dl dt p a{
+	font-size: 18px;
+	line-height: 36px;
+}
+#b-l .la-g dl dt img{
+	float: left;
+	margin: 10px 8px 0 0;
+}
+#b-l .la-g dl dd{
+	clear: both;
+}
+#b-l .bannerLX{
+	overflow: hidden;
+    margin-top: 10px;
+    width: 220px;
+    height: 110px;
+}
+#b-l .bannerLX a{
+	display: block;
+	overflow: hidden;
+    width: 220px;
+    height: 110px;
+}
+#luncenter{
+	float: left;
+}
+#luncenter .pinpai{
+	width: 776px;
+	height: 34px;
+	line-height: 32px;
+	margin: 0 2px;
+	border-bottom: 1px solid #e7e7e7;
+	clear: both;
+	text-indent: 10px;
+}
+#luncenter .pinpai a{
+	font-size: 14px;
+    color: #333;
+}
+#luncenter .lunCB1{
+	width: 776px;
+	height: 145px;
+	margin: 0 2px;
+	overflow: hidden;
+}
+#luncenter .lunCB1 a{
+	display: inline-block;
+	width: 258px;
+	height: 152px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+#luncenter .lunCB1 a img{
+	margin-left: 0;
+	}
+#luncenter .lunCB2{
+	width: 778px;
+	height: 110px;
+	margin: 10px 1px 0 1px;
+	overflow: hidden;
+}
+#luncenter .lunCB2 a{
+	display: inline-block;
+	width: 259px;
+	height: 110px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+#luncenter .lunCB2 a img{
+	margin-left: 0;
+	}
+
+#lunbo{
+	height: 380px;
+	width: 780px;
+	position: relative;
+	overflow: hidden;
+}
+#lunbo li{
+	float: left;
+}
+#lunbo #pic{
+	height: 380px;
+	width: 780px;
+	position: absolute;
+	
+}
+#lunbo #nav{
+	height: 12px;
+	width: 150px;
+	border-radius: 12px;
+	position: absolute;
+	top: 350px;
+	left: 350px;
+	
+}
+#lunbo #nav li{
+	height: 12px;
+	width: 12px;
+	border-radius: 12px;
+	background: #fff;
+	margin-left:12px ;
+}
+#lunbo #nav .navlong{
+	width: 30px;
+	height: 12px;
+	border-radius: 12px;
+	background: #fa4d00;
+}
+#lunbo .sc{
+	display: block;
+	width: 30px;
+	height: 60px;
+	background: #000000;
+	opacity: 0.4;
+	color: #fff;
+	font-size: 40px;
+	line-height: 60px;
+	position: absolute;
+}
+#lunbo .sl{
+	left: 6px;
+	top: 164px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+#lunbo .sr{
+	left: 742px;
+	top: 164px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#b-r{
+	float: right;
+	width: 220px;
+}
+#b-r #ra{
+	height:66px;
+	background: #989ba3;
+}
+#b-r #ra dl{
+	height:66px;
+	width: 72px;
+	float: left;
+}
+#b-r #ra dl{
+	text-align: center;
+}
+#b-r #ra dl a{
+	line-height: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+#b-r #ra dl dt{
+	margin-top: 6px;
+}
+#b-r #ra .radz{
+	margin: 0 2px;
+}
+#b-r p{
+	color:#666666;
+	line-height: 20px;
+	text-indent: 16px;
+	background: #f3f3f3;
+	width: 220px;
+}
+#b-r p a{
+	color:#666666;
+}
+#b-r .brp1{
+	width: 220px;
+	height: 38px;
+	text-indent: 10px;
+	line-height: 36px;
+	font-size: 16px;
+}
+#b-r .brp1 span{
+	float: right;
+}
+#b-r .brp1 span a{
+	font-size: 16px;
+}
+#b-r #smallLunbo{
+	width: 220px;
+	height: 216px;
+	overflow: hidden;
+}
+#b-r #smallLunbo ul{
+	width: 220px;
+	height: 216px;
+	overflow: hidden;
+}
+#b-r #smallLunbo ul li{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

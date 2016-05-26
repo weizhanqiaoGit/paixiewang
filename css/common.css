@@ -1,0 +1,182 @@
+/*-------------------------------------------------header---------------------------------*/
+#top{
+	width: 100%;
+	height: 34px;
+	line-height: 32px;
+	background: #fafafa;
+	border-bottom: 2px solid #eeeeee;
+	overflow: hidden;
+}
+#top-m{
+	margin: 0 auto;
+	width: 1220px;
+}
+#top #top-l{
+	float: left;
+}
+#shouji{
+    float: left;
+    margin-top: 6px;	
+}
+#denglu{
+	display: inline-block;
+	width: 62px;
+	height: 16px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+#denglu img{
+	float: left;
+    margin-top: 6px;
+}
+#top #top-r{
+	float: right;
+}
+#top #top-r .fl{
+	float: left;
+}
+#top #top-r .fl img{
+	display: inline-block;
+	margin: 4px ;
+	float: left;
+}
+#top #top-r img.fl{
+	display: inline-block;
+	margin: 8px 0 0 8px;
+	float: left;
+}
+#top #top-r p{
+	width: 78px;
+	line-height: 32px;
+	overflow: hidden;
+	height: 34px;
+	text-align: center;
+	float: left;
+}
+#top #r1{
+	background: url(../img/shutiao.jpg) no-repeat 67px 8px;
+}
+#top #r2{
+	padding-right:13px;
+	background: url(../img/shutiao.jpg) no-repeat 29px 8px;
+}
+#top #r3{
+	padding: 0 10px;
+	background: url(../img/shutiao.jpg) no-repeat 76px 8px;
+}
+#top a{
+	color:#000;
+}
+
+#header{
+	margin: 0 auto;
+	width: 1220px;
+	height: 112px;
+	overflow: hidden;
+	padding-top: 27px;
+}
+#header .lo{
+	float: left;
+}
+#header .lor{
+	float: right;
+	margin-top: 32px;
+}
+#header #logo p{
+	width: 220px;
+	line-height: 32px;
+	text-indent: 30px;
+	margin-top: 5px;
+	background:#ff5000 url(../img/a5.jpg) no-repeat 9px 8px;
+	color: #fff;
+	font-weight: 800;
+	font-size: 15px;
+}
+#btn1{
+	width: 398px;
+	height: 30px;
+	line-height: 28px;
+	float: left;
+	margin-left: 252px;
+	border: 2px solid #ff5000;
+	background: url(../img/a4.jpg) no-repeat 14px content-box;
+	text-indent: 36px;
+}
+#btn2{
+	width: 100px;
+	height: 36px;
+	color:#fff;
+	font-size: 18px;
+	border: none;
+	float: left;
+	background:#ff5000;
+}
+#sousuo p{
+	margin-left: 252px;
+}
+#sousuo p a{
+	color: #999;
+	margin-right: 10px;
+	line-height: 16px;
+}
+#sousuo dl dt img{
+	margin-left: 36px;
+}
+ #sousuo dl dd a{
+	color: #000000;
+	font-size: 16px;
+	padding: 8px 26px;
+	display: block;
+	margin-top: 4px;
+}
+#sousuo dl dd a:hover{
+	background: #EEEEEE;
+}
+#sousuo #d1 a{
+	margin-top:29px ;
+	}
+
+#fenggexian{
+	border: 1px #ff5000 solid;
+	clear: both;
+	border-bottom:2px #ff5000 solid;
+}
+/*-------------------------------------------------footer---------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
