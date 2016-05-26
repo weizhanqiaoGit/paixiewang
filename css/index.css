@@ -4,6 +4,7 @@
 	overflow: hidden;
 	clear: both;
 	border: 1px solid #0000FF;
+	position: relative;
 }
 #b-l{
 	
@@ -205,9 +206,9 @@
 }
 #b-r .brp1{
 	width: 220px;
-	height: 38px;
+	height: 39px;
 	text-indent: 10px;
-	line-height: 36px;
+	line-height: 37px;
 	font-size: 16px;
 }
 #b-r .brp1 span{
@@ -218,21 +219,67 @@
 }
 #b-r #smallLunbo{
 	width: 220px;
-	height: 216px;
+	height: 215px;
 	overflow: hidden;
 }
 #b-r #smallLunbo ul{
 	width: 220px;
-	height: 216px;
+	height: 215px;
 	overflow: hidden;
 }
 #b-r #smallLunbo ul li{
 	float: left;
 }
-
-
-
-
+#b-r .tuiJianDPPP{
+	width: 220px;
+	height: 33px;
+}
+#b-r .tuiJianDPPP a{
+	display: inline-block;
+    width: 90px;
+    height: 31px;
+    color: #333;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 9px;
+    font-size: 14px;
+}
+#b-r .tuiJianDPPP .jia{
+	 border-bottom: 2px solid #333;
+}
+#b-r #jieTi{
+	border:1px solid #e7e7e7;
+	width: 218px;
+	height: 266px;
+	overflow: hidden;
+}
+#b-r #jieTi dl{
+	width: 218px;
+	height: 266px;
+	overflow: hidden;
+	position: relative;
+}
+#b-r #jieTi dl dd{
+	position:absolute;
+	height: 110px;
+	width: 218px;
+	left: 0;
+}
+#b-r #jieTi .dl{
+	display: none;
+}
+#b-r #jieTi .jieTi1{
+	top:0;
+}
+#b-r #jieTi .jieTi2{
+	top:110px;
+}
+#b-r #jieTi .jieTi3{
+	top:162px;
+}
+#b-r #jieTi .jieTi4{
+	top:214px;
+}
 
 
 

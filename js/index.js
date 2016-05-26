@@ -22,12 +22,33 @@ $(function(){
 			setInterval(change, 2000);
 			setInterval(xiaochange, 1000);
 			$("#nav li").mouseenter(function(){
-				clearInterval(change);
+				clearInterval(change());
 				$(this).addClass("navlong").siblings().removeClass("navlong");
 				$("#pic li").eq($(this).index()).find(".imglun").fadeIn(300);
 				$("#pic li").eq($(this).index()).siblings().find(".imglun").fadeOut();
 				index=$(this).index();
 			})
+			/*------------------------------------tuiJianDPPP------------------------*/
+			 $("#b-r .tuiJianDPPP a").mouseenter(function(){
+			 	$(this).addClass("jia").siblings().removeClass("jia");
+			 	$("#b-r #jieTi dl").eq($(this).index()).addClass("dl")
+			 	.siblings().removeClass("dl");
+			 })
+			/*------------------------------------jieTi------------------------*/
+			$("#b-r #jieTi dl dd").mouseenter(function(){
+				 
+				$(this).animate({"top":"58px"},500);
+			})
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 		})
