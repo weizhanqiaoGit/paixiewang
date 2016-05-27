@@ -35,15 +35,44 @@ $(function(){
 			 	.siblings().removeClass("dl");
 			 })
 			/*------------------------------------jieTi------------------------*/
-			$("#b-r #jieTi dl dd").mouseenter(function(){
-				 
-				$(this).animate({"top":"58px"},500);
+			$("#b-r #jieTi .jieTi1").mouseenter(function(){
+				$(this).stop().animate({"top":"0px"},300);
+				$("#b-r #jieTi .jieTi2").stop().animate({"top":"110px"},300);
+				$("#b-r #jieTi .jieTi3").stop().animate({"top":"162px"},300);
+				$("#b-r #jieTi .jieTi4").stop().animate({"top":"214px"},300);
+			})
+			$("#b-r #jieTi .jieTi2").mouseenter(function(){
+				$(this).stop().animate({"top":"58px"},300);
+				$("#b-r #jieTi .jieTi3").stop().animate({"top":"162px"},300);
+				$("#b-r #jieTi .jieTi4").stop().animate({"top":"214px"},300);
+			})
+			$("#b-r #jieTi .jieTi3").mouseenter(function(){
+				$(this).stop().animate({"top":"110px"},300);
+				$("#b-r #jieTi .jieTi2").stop().animate({"top":"58px"},300);
+				$("#b-r #jieTi .jieTi4").stop().animate({"top":"214px"},300);
+			})
+			$("#b-r #jieTi .jieTi4").mouseenter(function(){
+				$(this).stop().animate({"top":"162px"},300);
+				$("#b-r #jieTi .jieTi2").stop().animate({"top":"58px"},300);
+				$("#b-r #jieTi .jieTi3").stop().animate({"top":"110px"},300);
 			})
 			
-			
-			
-			
-			
+			/*------------------------------------zuoYi------------------------*/
+			$(".zuoYi").mouseenter(function(){
+				$(this).stop().animate({"marginLeft":"-5px"},300);
+			})
+			$(".zuoYi").mouseleave(function(){
+				$(this).stop().animate({"marginLeft":"0px"},300);
+			})
+			/*------------------------------------youYi------------------------*/
+			$(".la-g").mouseover(function(){
+				$(this).children().stop().animate({"marginLeft":"28px"},300);
+				$(this).css({"borderRight":"none"});
+			})
+			$(".la-g").mouseout(function(){
+				$(this).children().stop().animate({"marginLeft":"18px"},300);
+				$(this).css({"borderRight":"1px solid #CCCCCC"});
+			})
 			
 			
 			

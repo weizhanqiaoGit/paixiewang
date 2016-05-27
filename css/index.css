@@ -3,18 +3,21 @@
 	width: 1220px;
 	overflow: hidden;
 	clear: both;
-	border: 1px solid #0000FF;
 	position: relative;
 }
 #b-l{
-	
-	width: 220px;
+	border-left: 1px solid #CCCCCC;
+	width: 219px;
 	float: left;
+	overflow: hidden;
 }
 #b-l .la-g{
-	border: 1px solid #CCCCCC;
-	height: 78px;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	height: 79px;
 	width: 218px;
+	margin-left: 0;
+	overflow: hidden;
 }
 #b-l .la-g dl{
 	width: 180px;
@@ -78,7 +81,7 @@
 	overflow: hidden;
 }
 #luncenter .lunCB1 a{
-	display: inline-block;
+	display: block;
 	width: 258px;
 	height: 152px;
 	overflow: hidden;
@@ -87,7 +90,7 @@
 }
 #luncenter .lunCB1 a img{
 	margin-left: 0;
-	}
+}
 #luncenter .lunCB2{
 	width: 778px;
 	height: 110px;
@@ -95,7 +98,7 @@
 	overflow: hidden;
 }
 #luncenter .lunCB2 a{
-	display: inline-block;
+	display:block;
 	width: 259px;
 	height: 110px;
 	overflow: hidden;
@@ -206,9 +209,9 @@
 }
 #b-r .brp1{
 	width: 220px;
-	height: 39px;
+	height: 38px;
 	text-indent: 10px;
-	line-height: 37px;
+	line-height: 35px;
 	font-size: 16px;
 }
 #b-r .brp1 span{
@@ -258,6 +261,7 @@
 	height: 266px;
 	overflow: hidden;
 	position: relative;
+	display: none;
 }
 #b-r #jieTi dl dd{
 	position:absolute;
@@ -266,7 +270,7 @@
 	left: 0;
 }
 #b-r #jieTi .dl{
-	display: none;
+	display: block;
 }
 #b-r #jieTi .jieTi1{
 	top:0;
